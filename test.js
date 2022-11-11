@@ -1,5 +1,5 @@
-import test from 'ava';
-import normalizeUrl from './index.js';
+const test = require('ava');
+const normalizeUrl = require('./index.js');
 
 test('main', t => {
 	t.is(normalizeUrl('sindresorhus.com'), 'http://sindresorhus.com');
